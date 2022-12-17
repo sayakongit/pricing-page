@@ -1,0 +1,113 @@
+[
+  {
+    "title": "Premium Care",
+    "price": 1999,
+    "time": "6 months",
+    "features": [
+      {
+        "subject": "WhatsApp Group",
+        "info": "8 am - 11 pm",
+        "status": true
+      },
+      {
+        "subject": "Basic Medical Queries",
+        "info": "Unlimited",
+        "status": true
+      },
+      {
+        "subject": "Private Chat",
+        "info": "With dedicated Pediatrician",
+        "status": true
+      },
+      {
+        "subject": "Video Consultation",
+        "info": "6 free consultations (Pediatrician/ Gynaecologist/ Nutritionists/ Lactation)",
+        "status": true
+      },
+      {
+        "subject": "Additional Consultations",
+        "info": "20% Discount",
+        "status": true
+      },
+      {
+        "subject": "Growth tracking for baby",
+        "info": "Monthly",
+        "status": true
+      }
+    ]
+  },
+  {
+    "title": "Basic Access+",
+    "price": 748,
+    "time": "one year",
+    "features": [
+      {
+        "subject": "WhatsApp Group",
+        "info": "8 am - 11 pm",
+        "status": true
+      },
+      {
+        "subject": "Basic Medical Queries",
+        "info": "Unlimited",
+        "status": true
+      },
+      {
+        "subject": "Private Chat",
+        "info": "NA",
+        "status": false
+      },
+      {
+        "subject": "Video Consultation",
+        "info": "2 Free Consultations (Pediatrician Only)",
+        "status": true
+      },
+      {
+        "subject": "Additional Consultations",
+        "info": "20% Discount",
+        "status": true
+      },
+      {
+        "subject": "Growth tracking for baby",
+        "info": "Not Included",
+        "status": false
+      }
+    ]
+  },
+  {
+    "title": "Basic Access",
+    "price": 1248,
+    "time": "one year",
+    "features": [
+      {
+        "subject": "WhatsApp Group",
+        "info": "8 am - 11 pm",
+        "status": true
+      },
+      {
+        "subject": "Basic Medical Queries",
+        "info": "Unlimited",
+        "status": true
+      },
+      {
+        "subject": "Private Chat",
+        "info": "NA",
+        "status": false
+      },
+      {
+        "subject": "Video Consultation",
+        "info": "No Free Consultations",
+        "status": false
+      },
+      {
+        "subject": "Additional Consultations",
+        "info": "20% Discount",
+        "status": true
+      },
+      {
+        "subject": "Growth tracking for baby",
+        "info": "Not Included",
+        "status": false
+      }
+    ]
+  }
+]

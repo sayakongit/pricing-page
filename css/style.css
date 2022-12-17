@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: rgb(55, 55, 55);
+    background: #eff9fe;
+}
+
+.main-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    /* border: 1px solid red; */
+}
+
+.title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.sub-title {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: rgb(79, 79, 79);
+}
+
+.card-container {
+    /* border: 1px solid blue; */
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.price-card {
+    background: #fff;
+    width: 30%;
+    height: max-content;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    transform: scale(100px);
+    transition: all 0.3s ease;
+}
+
+.price-card:hover {
+    transform: scale(1.05);
+}
+
+.price-card h3 {
+    text-align: center;
+    font-size: 1.4rem;
+    color: rgb(78, 78, 78);
+    margin-bottom: 10px;
+}
+
+.price {
+    color: #55B7E9;
+    font-size: 3.4rem;
+}
+
+.price-title {
+    text-align: center;
+    font-weight: 600;
+    color: rgb(78, 78, 78);
+    font-size: 1.2rem;
+    line-height: 1.2;
+}
+
+.hr {
+    margin: 30px 0;
+    width: 100%;
+    height: 0.2px;
+    background: #d1d1d1;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+}
+
+.feature-item {
+    display: flex;
+    align-items: flex-start;
+    /* flex-wrap: wrap; */
+    line-height: 1.2;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.feature-item ion-icon {
+    font-size: 1.3rem;
+    --ionicon-stroke-width: 42px;
+    margin: 0;
+    padding: 0;
+}
+
+.available {
+    color: #55B7E9;
+}
+
+.not-available {
+    color: #d2473f;
+}
+
+.feature-item h4 {
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.feature-subject {
+    font-weight: 600;
+}
+
+.pay-btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    margin-top: 20px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.1rem;
+    background: rgb(33,130,180);
+    background: linear-gradient(0deg, rgba(33,130,180,1) 0%, rgba(85,183,233,1) 100%);
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.2) 0px 8px 16px -8px;
+}
